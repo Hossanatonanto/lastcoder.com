@@ -1,0 +1,169 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right:25px;
+}
+    
+    .nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+.nav ul li a:hover {
+    background-color: #eb1230;
+    color: white;
+    padding-top: 5px 10px 5px 10px;
+}
+    
+.nav ul{
+    float: right;
+}
+    
+.logo {
+    float: left;
+}
+   
+.logo img {
+    width: 150px
+}
+
+.for-header{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    background-color: rgb(255, 252, 252);
+    height: 60px;
+}
+
+.bg-image{
+    background-image: url('./bg2.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+}
+
+#bg-text a {
+    color: white;
+    font-size: 56px;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+#bg-text p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.background-container {
+    background: black;
+}
+
+#bg-text {
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+
+.First-sec img {
+    width: 25%;
+    float: left;
+    max-height: 250px;
+    min-height: 250px;
+    object-fit: cover;
+}
+
+
+
+
+.First-sec {
+    padding: 0 10px 0 10px;
+}
+
+.code-easy{
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 70px;
+}
+
+.code-easy a {
+    font-size: 32px;
+    font-weight: lighter;
+}
+.col-2 img {
+    width: 380px;
+}
+
+.two-col{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 850px;
+    margin: auto auto;
+    column-gap: 0px;
+}
+.col-1 a {
+    font-size: 18px;
+    display: block;
+    margin-top: 100px;
+    padding: 0 30px 0 30px;
+} 
+
+.col-1{
+    background-color: rgb(159, 255, 255);
+}
+
+.cc2 {
+    background-color: rgb(252, 150, 132);
+}
+
+.sv1 img {
+    width: 100%;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1000;
+    margin: auto auto;
+    column-gap: 30px;
+    margin-top: 80px;
+}
+
+.sv1 h3 {
+    text-align: center;
+}
+.sv1 h3 {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+footer {
+    margin-top: 80px;
+}
+.ft-section {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 1000px;
+    margin: auto auto;
+}
+
+.ft1 li {
+    list-style: none;
+}
+
+.ft1 li a {
+    text-decoration: none;
+    font-size: 18px;  
+    line-height: 1.4;
+}
